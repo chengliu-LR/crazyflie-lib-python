@@ -8,6 +8,7 @@ See [below](#platform-notes) for platform specific instruction.
 For more info see our [documentation](https://www.bitcraze.io/documentation/repository/crazyflie-lib-python/master/).
 
 ## Installation
+
 See the [installation instructions](docs/installation/install.md) in the github docs folder.
 
 ## Official Documentation

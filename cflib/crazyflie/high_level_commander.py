@@ -25,7 +25,7 @@
 #  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
 #  MA  02110-1301, USA.
 """
-Used for sending high level setpoints to the Crazyflie
+Used for sending high level setpoints to the Crazyflie (more autonomy onboard)
 """
 import struct
 

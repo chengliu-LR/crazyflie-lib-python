@@ -39,8 +39,7 @@ class BootVersion:
 
     @staticmethod
     def to_ver_string(ver):
-        if (ver == BootVersion.CF1_PROTO_VER_0 or ver == BootVersion.
-                CF1_PROTO_VER_1):
+        if (ver == BootVersion.CF1_PROTO_VER_0 or ver == BootVersion.CF1_PROTO_VER_1):
             return 'Crazyflie Nano Quadcopter (1.0)'
         if ver == BootVersion.CF2_PROTO_VER:
             return 'Crazyflie 2.0'

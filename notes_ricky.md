@@ -1,5 +1,9 @@
 # Notes for your Crazyflie2.X
 
+## 2021-Sep-10
+
+Your Crazyflie2.X address is ended with **EC**. If you want to change it, launch cfclient and go to `connect/congifure 2.X` to change the radio address.
+
 ## 2021-Aug-20
 
 解决了python版本问题，安装了`python3.6.5`后`TOXENV=py36 tox`出现bug，`examples/tuning/PID_controller_tuner.py`文件中添加`import tkinter as tk`后测试通过。
@@ -124,7 +128,7 @@ Writing a new binary to the Crazyflie is called flashing (writing to the flash m
 - The firmware has been built
 - The current woking directory is the root if the crazyflie-firmware project
 
-##### Manually entering bootloader mdoe
+##### Manually entering bootloader mode
 
 - Turn the Crazyflie off
 - Start the Crazyflie in the *bootloader mode* by **pressing the power button for 3 seconds**. Both the blue LEDs will blink

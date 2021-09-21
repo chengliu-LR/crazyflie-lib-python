@@ -24,7 +24,8 @@
 #  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
 #  MA  02110-1301, USA.
 """
-This demo shows how to connect to your Crazyflie through the Crazyflie python library and basic of logging and parameters.
+This demo shows how to connect to your Crazyflie through the
+Crazyflie python library and basic of logging and parameters.
 Change the URI variable to your Crazyflie configuration.
 """
 import logging
